@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,100;1,200&display=swap');
+
+
+/* Header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d6a4f;
+    padding: 10px;
+}
+.continer-header img{
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.continer-header h1{
+    margin-top: 54px;
+    font-size: 2em;
+    color: #f18701;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.continer-header ul{
+    margin-top: 54px;
+    margin-right: 50px;
+}
+.continer-header li{
+    display: inline;
+    background-color: #52b788;
+    margin: 10px;
+    padding: 10px;
+}
+.continer-header a{
+    text-decoration: none;
+}
+
+/* main */
+.continer{
+    background-color: #9695d5;
+    padding: 50px;
+}
+/* footer */
+.copyright{
+    height: 120px;
+    background-color: #2d6a4f;
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+}
+.copyright p{
+    font-size: 1.5em;
+    padding: 55px;
+    font-weight: bolder;
+}
+.calendario {
+	background-color: aqua;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+}
+.cuadro{
+	height: 200px;
+	width: 150px;
+	margin: 10px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	background-color: rgb(118, 160, 146);
+}
+.cuadro a {
+	text-align: center;
+	text-decoration: none;
+  }
+
+  .over{
+    font-family: "Arial";
+}
+#cker{
+    width: 300px;
+    margin: auto;
+    display: block;
+    position: relative;
+   
+}
+.over{
+    width: 85%;
+    height: 90%;
+    padding: 5px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    background-color: rgba(0,0,0,.8);
+    display: none;
+    color: white;
+    text-align: center;
+    z-index: 9999;
+    font-family: "Arial";
+    font-size: 16px;
+}
+.over h1{
+    font-size: 1.2em;
+    margin: 1em 0 0 0;
+    
+}
+.over p{
+    font-weight: 300;
+    line-height: 140%;
+}
+.close{
+    display: block;
+    height: 20px;
+    width: 20px;
+    color: white;
+    font-family: "Arial";
+    font-size: 14px;
+    background-color: #f36800;
+    text-decoration: none;
+    padding: 3px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.calendar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #7bcfaa;
+    
+    height: 250px;
+    width: 290px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.recu{
+    display: inline-block;
+}
+.recordatorio{
+    display: inline-block;
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    
+    background-color: #9ad6a2;
+}
+
+.recordatorio table tr {
+   padding:0 100px;
+}
+table td {
+    width: 50px;
+    height: 20px;
+    padding: 8px;
+    border: 1px solid black;
+  }
+
